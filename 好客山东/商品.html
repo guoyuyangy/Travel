@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd
+
+">
+<html xmlns="http://www.w3.org/1999/xhtml
+
+">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>产品订购</title>
+</head>
+
+<body>
+<form method="post" enctype="multipart/form-data" action="#">
+<table border="1" cellpadding="8" cellspacing="2" width="100%" >
+<tr>
+<th colspan="4">产品订购</th>
+</tr>
+<tr>
+<td align="right">姓名：</td>
+<td align="left"><input type="text" name="username" /></td>
+<td align="left">商品名称:</td>
+<td align="left"><input type="text" name="huowuname" /></td>
+</tr>
+<tr>
+<td align="right">地区:</td>
+<td align="left"><select name="city">
+                 <option value="guangzhou">广州</option>
+				 <option value="beijing">北京</option>
+				 <option value="shanghai">上海</option>
+				 </select>
+				 </td>
+<td align="left">付款方式：</td>
+<td align="left"><input type="radio" value="web" name="way"  />网上
+                 <input type="radio" value="youju" name="way" />邮局
+				 <input type="radio" value="bank" name="way" />银行
+				 </td>
+				 </tr>
+<tr>
+<td align="right">关注产品:</td>
+<td align="left" colspan="3"><input type="checkbox" value="hufupin" name="m1" checked="checked" />护肤品
+                             <input type="checkbox" value="huazhuangpin" name="m2"  />化妆品
+							 <input type="checkbox" value="fuzhuang" name="m3" checked="checked" />服装
+							 <input type="checkbox" value="dianqi" name="m4" />
+							 </td>
+							 </tr>
+<tr>
+<td align="right">联系电话：</td>
+<td align="left" colspan="3"><input type="text" name="phone number"  /></td>
+</tr>
+<tr>
+<td align="right"  >备注：</td>
+<td  colspan="3" ><textarea name="remark" rows="10" cols="150"></textarea>
+</td>
+</tr>
+<tr>
+    <td> </td>
+    <td colspan="3">
+    	<input type="submit" value="提交" />
+    	<input type="reset" value="重置" />
+    </td>
+  </tr>
+</table>
+</form>
+</body>
+</html>
+
